@@ -7,4 +7,4 @@
     $comando = $conexao->prepare("UPDATE TB_MARCAS SET MAR_MARCA = '{$mar_marca}' WHERE MAR_CODIGO = {$mar_codigo}");
     $comando->execute();
     
-    header('Location: /locadora?pagina=app/paginas/marcas/listagem.php');
+    header('Location: /locadora?pagina=app/paginas/marcas/listagem.php'); 
