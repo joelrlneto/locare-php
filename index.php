@@ -30,6 +30,7 @@
             Cadastros
           </a>
           <div class="dropdown-menu">
+            <a class="dropdown-item" href="/locadora?pagina=app/paginas/clientes/listagem.php">Clientes</a>
             <a class="dropdown-item" href="/locadora?pagina=app/paginas/funcionarios/listagem.php">Funcionários</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="/locadora?pagina=app/paginas/cidades/listagem.php">Cidades</a>
