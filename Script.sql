@@ -118,7 +118,7 @@ CREATE TABLE TB_LOCACOES (
 ) ENGINE = InnoDB;
 
 ------------------------------------------------------
-ALTERAÇÔES
+-- ALTERAÇÔES
 ------------------------------------------------------
 
 ALTER TABLE TB_MARCAS ADD CONSTRAINT CON_MARCA_UNIQUE UNIQUE (MAR_MARCA);
